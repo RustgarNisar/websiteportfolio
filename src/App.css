@@ -1,0 +1,1777 @@
+body{
+  margin:0 20px;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.nav-mobile{
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container{
+ margin-top: 20px;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.title{
+  text-align: center;
+  color:#540D6E;
+  font-size: 3.5em;
+}
+
+.a{
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: #540D6E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+.a:hover{
+  color: #8380B6;
+  transition: 0.2s ease;
+}
+.nav-right{
+  align-self: center;
+  position: absolute;
+  right: 0px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.mini-container{
+  text-align: center;
+}
+.mini{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.go-back{
+  padding: 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #8789C0;
+  border-radius: 0.5pc;
+  text-decoration: none;
+}
+
+.go-back:hover{
+  background-color: #540D6E;
+  transition: 0.5s ease;
+}
+
+.logo{
+  margin-left: 50px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3em;
+  text-decoration: none;
+  background-image: linear-gradient(90deg, #540D6E, #7a08a3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.rustgar{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  text-align: left;
+}
+
+.rustyright{
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.edintro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.edright{
+  margin-left: 30px;
+  text-align: center;
+}
+
+h1{
+  font-size: 4em;
+  font-weight: 500;
+  color: #540D6E;
+}
+
+h3{
+  color:#540D6E;
+  font-size: 2em;
+  font-weight: 400;
+}
+.test{
+  width:600px;
+  height:600px;
+}
+
+
+.uipic{
+  width:550px;
+  height:550px;
+}
+
+.main{
+  width: 700px;
+  height: 700px;
+}
+
+.cloud{
+  width: 750px;
+  height: 450px;
+}
+.backcloud-right{
+  margin-left: 30px;
+}
+
+.ui-right{
+  margin-left: 30px;
+}
+.intron{
+  color: #540D6E;
+  font-size: 4.5em;
+
+}
+
+q{
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #999abf;
+}
+
+.sm{
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+}
+
+.sm ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.sm ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0px 10px;
+}
+
+.sm ul li a{
+  display: block;
+  color: #fff;
+  font-size: 25px;
+}
+
+.sm ul li a i{
+  line-height: 50px;
+}
+
+.sm ul li:nth-child(1){
+  background: rgb(0, 0, 0);
+}
+
+.sm ul li:nth-child(2){
+  background: #0A66C2;
+}
+
+.sm ul li:nth-child(3){
+  background: #1DA1F2;
+}
+
+.sm ul li:hover{
+  background:#540D6E;
+  transition: 0.5s ease;
+}
+
+.full{
+  display: flex;
+  margin-top: 20px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-left{
+margin-right: 30px;
+}
+
+.backend-cloud{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+
+}
+
+.ui-ux{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.robotics{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+}
+
+.r-right{
+  margin-left: 30px;
+}
+.fullstacklogo{
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+}
+
+.fullstacklogo ul{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.fullstacklogo ul li{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0px 10px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+}
+.icondesc{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background: #540D6E;
+  width: fit-content;
+  visibility: hidden;
+  opacity: 0;
+  margin: 0px 0px;
+}
+
+.fullstacklogo ul li:hover .icondesc{
+  visibility: visible;
+  opacity: 1;
+}
+
+h2{
+  font-size: 3em;
+  font-weight: 400;
+  color: #540D6E;
+}
+
+.point{
+  list-style-position: outside;
+  list-style:none ;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #8380B6;
+}
+
+.point li{
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+
+.point li p::before{
+  content: "⚡️ ";
+}
+
+footer{
+  font-size: 1.3em;
+  font-weight: 400;
+  color:#540D6E;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.wlu{
+  margin-left: 30px;
+  height: 150px;
+  width: 150px;
+  padding: 40px;
+  border-radius: 100%;
+  background-color: #F7F7FF;
+  box-shadow: 2px 2px 10px #8789C0;
+  }
+
+  .uni{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .university{
+    text-align: center;
+  }
+
+  .major-desc{
+    margin-left: 30px;
+    padding: 1px 30px 50px 0px;
+    background-color: #F7F7FF;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0pc 0pc 0.5pc 0.5pc;
+  }
+
+  .major{
+    color: white;
+    margin-left: 30px;
+    background-color: #8789C0;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0.5pc 0.5pc 0pc 0pc;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h4{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  h5{
+    font-size: 1.2em;
+  }
+
+  .degree{
+    margin-top: 0px;
+  }
+  .uni-web{
+    float: right;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #8789C0;
+    border-radius: 0.5pc;
+    margin: 0px;
+    text-decoration: none;
+  }
+
+  .uni-web:hover{
+    background-color: #540D6E;
+    transition: 0.5s ease;
+  }
+
+  .major-point{
+    list-style-position: outside;
+    list-style:none ;
+    font-size: 1em;
+    font-weight: 400;
+    color: #8380B6;
+  }
+
+  .major-point li p::before{
+    content: "⚡️ ";
+  }
+
+  .cert-layout{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .cert{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .course-org:nth-child(1){
+    background-color: #71a4d6;
+    padding: 10px 70px;
+  }
+
+  .course{
+    padding: 1px 0px 1px 0px;
+    width: 450px;
+    text-align: center;
+    background-color: #F7F7FF;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0pc 0pc 0.5pc 0.5pc;
+  }
+
+  .certlogo{
+    margin-right: 20px;
+  }
+  .course-org{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0.5pc 0.5pc 0pc 0pc;
+  }
+
+  .coursera-title{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: #4e4e4e;
+  }
+
+  .namecourse{
+    margin-top: 10px;
+    color: #540D6E;
+    font-weight: 600;
+  }
+  
+  .nameinstructor{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #8380B6;
+    font-weight: 500;
+  }
+
+  .dash{
+    list-style-position: outside;
+    list-style:none ;
+
+  }
+  
+  .dash li{
+    text-indent: -2rem;
+  }
+  
+  .dash li h5::before{
+    content: "- ";
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .overlay{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.5em;
+    position: absolute;
+    background-color: rgba(0, 0, 0,0.6);
+    padding:37px 152.5px;
+    border-radius: 0.5pc 0.5pc 0pc 0pc;
+    transition: all .3s ease;
+    opacity: 0;
+  }
+
+
+  .sql:hover .overlay{
+    opacity: 1;
+  }
+
+.exper-intro{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.exper-intro-right{
+  margin-left: 30px;
+}
+
+.exper-desc{
+  font-size: 1.4em;
+  color: #8380B6;
+  font-weight: 500;
+  text-indent: 20px;
+}
+
+.subtitle{
+  text-align: center;
+}
+
+.job{
+  margin: 20px;
+  padding: 20px;
+  padding-left: 30px;
+  border-color: #8380B6;
+  border-radius: 0.5pc;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.job-leftright{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.box{
+  background-color: #F7F7FF;
+  padding: 30px;
+  box-shadow: 2px 2px 10px #8789C0;
+  border-radius: 0.5pc;
+
+}
+
+
+.position{
+  font-size: 1.5em;
+  margin-bottom: 0px;
+  margin-top:0px;
+}
+
+.company{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.date{
+margin-top: 0px;
+margin-bottom: 0px;
+color: #8380B6;
+font-weight: 600;
+}
+
+.city{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #8380B6;
+  font-weight: 600;
+}
+
+.projectintro{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.project-github{
+
+  background-color: #F7F7FF;
+  box-shadow: 2px 2px 10px #8789C0;
+  border-radius: 0.5pc;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.project-github:hover{
+  color: white;
+  background-color: #540D6E;
+  transition: 0.5s ease;
+}
+
+.gbutton{
+  text-align: center;
+}
+
+.gbutton a i{
+margin-right: 20px;
+}
+
+.project-right{
+  margin-left: 30px;
+}
+
+.contactintro
+{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.contactform{
+width: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+form{
+display: flex;
+flex-direction: column;
+padding: 2vw 4vw;
+width: 90%;
+max-width: 1000px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  font-size: 1.2em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+form button{
+  padding: 15px;
+  background-color: #8789C0;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  border-radius: 0.5pc;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 200px;
+  margin: 20px auto 0;
+
+}
+
+form button:hover{
+  background-color: #540D6E;
+  transition: 0.5s ease;
+}
+ @media (min-width:1300px) and (max-width:1600px) {
+
+  q{
+    font-size: 2em;
+  }
+
+  .overlay{
+    font-size: 1.5em;
+    padding:34px 152px;
+  }
+  .main{
+    width: 600px;
+    height: 600px;
+  }
+
+  .intron{
+    font-size: 4em;
+  }
+  
+  .title{
+    font-size: 3em;
+  }
+
+
+
+  h2{
+    font-size: 2em;
+  }
+  .test{
+    width: 500px;
+    height: 500px;
+  }
+
+  .point{
+    font-size: 1.3em;
+  }
+  .cloud{
+    width: 500px;
+    height: 400px;
+  }
+
+  .uipic{
+    width:450px;
+    height:450px;
+  }
+
+  h3{
+    font-size: 1.5em;
+  }
+
+  h4{
+    font-size: 1.3em;
+  }
+
+  h5{
+    font-size: 1em;
+  }
+  footer{
+    font-size: 1em;
+  }
+
+  .coursera-title{
+    font-size: 1.5em;
+  }
+
+  .exper-desc{
+    font-size: 1.2em;
+  }
+
+  .project-github{
+    font-size: 1.5em;
+  }
+
+  
+
+  form input, form textarea{
+    font-size: 1em;
+  }
+
+  form button{
+    font-size: 1.2em;
+    width: 150px;
+  
+  }
+ }
+
+ @media (min-width:1050px) and (max-width:1300px) {
+ .icon{
+  width:35px;
+  height:35px;
+}
+
+.fullstacklogo ul li{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0px 10px;
+}
+q{
+  font-size: 1.6em;
+}
+
+.main{
+  width: 500px;
+  height: 500px;
+}
+
+.intron{
+  font-size: 3.5em;
+}
+
+.title{
+  font-size: 2.7em;
+}
+
+h2{
+  font-size: 2em;
+}
+.test{
+  width: 400px;
+  height: 400px;
+}
+
+.point{
+  font-size: 1.2em;
+}
+.cloud{
+  width: 400px;
+  height: 400px;
+}
+
+.uipic{
+  width:350px;
+  height:350px;
+}
+
+h3{
+  font-size: 1.4em;
+}
+
+h4{
+  font-size: 1.3em;
+}
+
+h5{
+  font-size: 1em;
+}
+footer{
+  font-size: 1em;
+}
+
+.coursera-title{
+  font-size: 1.4em;
+}
+
+
+.exper-desc{
+  font-size: 1.2em;
+}
+
+.project-github{
+  font-size: 1.2em;
+}
+
+form input, form textarea{
+  font-size: 1em;
+}
+
+form button{
+  font-size: 1.2em;
+  width: 150px;
+
+}
+
+.overlay{
+  font-size: 1.5em;
+  padding:31.5px 152px;
+}
+}
+
+ @media (min-width:950px) and (max-width:1050px) {
+  .icon{
+  width:35px;
+  height:35px;
+}
+
+.sm ul li a{
+  font-size: 20px;
+}
+
+.sm ul li{
+  width: 40px;
+  height: 40px;
+}
+
+.sm ul li a i{
+  line-height: 40px;
+}
+
+.fullstacklogo ul li{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0px 10px;
+}
+q{
+  font-size: 1.4em;
+}
+
+.main{
+  width: 400px;
+  height: 400px;
+}
+
+.intron{
+  font-size: 3.5em;
+}
+
+.title{
+  font-size: 2.7em;
+}
+h1{
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+.test{
+  width: 400px;
+  height: 400px;
+}
+
+.point{
+  font-size: 1.2em;
+}
+.cloud{
+  width: 400px;
+  height: 400px;
+}
+
+.uipic{
+  width:350px;
+  height:350px;
+}
+.overlay{
+  font-size: 1.5em;
+  padding:31.5px 152px;
+}
+
+
+h3{
+  font-size: 1.4em;
+}
+
+h4{
+  font-size: 1.3em;
+}
+
+h5{
+  font-size: 1em;
+}
+footer{
+  font-size: 1em;
+}
+.wlu{
+  margin-left: 0px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  }
+
+  .uni{
+    flex-direction: column;
+  }
+.coursera-title{
+  font-size: 1.4em;
+}
+
+.exper-desc{
+  font-size: 1.2em;
+}
+
+.project-github{
+  font-size: 1.2em;
+}
+
+form input, form textarea{
+  font-size: 1em;
+}
+
+form button{
+  font-size: 1.2em;
+  width: 150px;
+
+}
+
+}
+
+@media (min-width:769px) and (max-width:950px) {
+
+  .logo{
+    margin-left: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #540D6E, #7a08a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  .a{
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .icon{
+    width:35px;
+    height:35px;
+  }
+  
+  .sm ul li a{
+    font-size: 20px;
+  }
+  
+  .sm ul li{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sm ul li a i{
+    line-height: 40px;
+  }
+  
+  .fullstacklogo ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+  }
+  q{
+    font-size: 1.4em;
+  }
+  
+  .main{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .intron{
+    font-size: 2.5em;
+  }
+  
+  .title{
+    font-size: 2.5em;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  .test{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .point{
+    font-size: 1em;    
+    padding: 0;
+  }
+  .cloud{
+    width: 300px;
+    height: 300px;
+  }
+  
+  .uipic{
+    width:250px;
+    height:250px;
+  }
+
+  .major-point{
+    font-size: 0.9em;
+  }
+  
+  h3{
+    font-size: 1.4em;
+  }
+  
+  h4{
+    font-size: 1.3em;
+  }
+  
+  h5{
+    font-size: 1em;
+  }
+  footer{
+    font-size: 1em;
+  }
+  .wlu{
+    margin-left: 0px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    }
+  
+    .uni{
+      flex-direction: column;
+    }
+
+    .major-desc{
+      margin-left: 0;
+    }
+  .coursera-title{
+    font-size: 1.2em;
+  }
+  
+  .overlay{
+    font-size: 1.5em;
+    padding:27px 152px;
+  }
+  
+  .exper-desc{
+    font-size: 1em;
+  }
+  
+  .project-github{
+    font-size: 1em;
+    padding: 15px;
+  }
+  
+  form input, form textarea{
+    font-size: 1em;
+  }
+  
+  form button{
+    font-size: 1.2em;
+    width: 150px;
+  
+  }
+
+  .position{
+    font-size: 1.3em;
+  }
+  
+  .company{
+    font-size: 1em;
+  }
+  
+  .date{
+  font-size: 0.9em;
+  }
+  
+  .city{
+    font-size: 0.9em;
+  }
+
+  p{
+    font-size: 0.9em;
+  }
+
+  .major{
+    margin-left: 0;
+  }
+  
+}
+
+@media (min-width:550px) and (max-width:769px) {
+  .nav-mobile {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+    transform: translateY(-100%);
+  }
+  
+  .nav-mobile.active {
+    transform: translateY(0);
+  }
+
+  .nav-mobile .a{
+    color: #8380B6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 16px 0;
+  }
+
+
+ .hamburger{
+  display: block;
+  float: right;
+  margin-right: 10px;
+ }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out; 
+    background-color: #540D6E;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+
+  .major{
+    margin-left: 0;
+  }
+
+  .major-desc{
+    margin-left: 0;
+  }
+
+  .nav-right{
+    display: none;
+  }
+
+  .rustgar{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+
+  .logo{
+    margin-left: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #540D6E, #7a08a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  .a{
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .icon{
+    width:35px;
+    height:35px;
+  }
+  
+  .sm ul li a{
+    font-size: 20px;
+  }
+  
+  .sm ul li{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sm ul li a i{
+    line-height: 40px;
+  }
+  
+  .fullstacklogo ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+  }
+  q{
+    font-size: 1.4em;
+  }
+  
+  .main{
+    width: 500px;
+    height: 500px;
+  }
+  
+  .intron{
+    font-size: 2.5em;
+  }
+  
+  .title{
+    font-size: 2.5em;
+  }
+  h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .test{
+    width: 450px;
+    height: 450px;
+  }
+
+  .full-left{
+    margin-right: 0;
+  }
+  .point{
+    font-size: 1.1em;
+    padding: 0;
+  }
+  .cloud{
+    width: 450px;
+    height: 300px;
+  }
+  
+  .uipic{
+    width:400px;
+    height:400px;
+  }
+
+  .major-point{
+    font-size: 0.9em;
+  }
+  
+  h3{
+    font-size: 1.4em;
+  }
+  
+  h4{
+    font-size: 1.3em;
+  }
+  
+  h5{
+    font-size: 1em;
+  }
+  footer{
+    font-size: 1em;
+  }
+  .wlu{
+    margin-left: 0px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    }
+  
+    .uni{
+      flex-direction: column;
+    }
+  .coursera-title{
+    font-size: 1.2em;
+  }
+  
+  .overlay{
+    font-size: 1.5em;
+    padding:27px 152px;
+  }
+  
+  .exper-desc{
+    font-size: 1.2em;
+  }
+  
+  .project-github{
+    font-size: 1em;
+    padding: 15px;
+  }
+  
+  form input, form textarea{
+    font-size: 1em;
+  }
+  
+  form button{
+    font-size: 1.2em;
+    width: 150px;
+  
+  }
+
+  .position{
+    font-size: 1.3em;
+  }
+  
+  .company{
+    font-size: 1em;
+  }
+  
+  .date{
+  font-size: 0.9em;
+  }
+  
+  .city{
+    font-size: 0.9em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .full{
+    flex-direction: column;
+  }
+
+  .backend-cloud{
+    flex-direction: column-reverse;
+  }
+  .backcloud-right{
+    margin-left: 0;
+  }
+  
+  .ui-right{
+    margin-left: 0;
+  }
+
+  .ui-ux{
+    flex-direction: column;
+  }
+
+  .r-right{
+    margin-left: 0;
+  }
+
+
+  .full-left{
+    margin-right: 0px;
+    }
+
+  .robotics{
+    flex-direction: column-reverse;
+  }  
+
+  .edintro{
+    flex-direction: column;
+  }
+
+  .edright{
+    margin-left: 0;
+  }
+
+  .fullstacklogo{
+    margin-top: 0px;
+  }
+  .course-org{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0.5pc 0.5pc 0pc 0pc;
+  }
+  .course{
+    padding: 1px 0px 1px 0px;
+    text-align: center;
+    background-color: #F7F7FF;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0pc 0pc 0.5pc 0.5pc;
+  }
+
+  .exper-intro{
+    flex-direction: column;
+  }
+  .exper-intro-right{
+    margin-left: 0;
+  }
+  
+  .job-leftright{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .job-right{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .box{
+    padding: 10px;
+  }
+
+  .projectintro{
+    flex-direction: column;
+  }
+
+  .project-right{
+    margin-left: 0;
+  }
+
+  .contactintro{
+    flex-direction:column-reverse;
+  }
+}
+
+@media (max-width:550px) {
+
+  .nav-mobile{
+    position: relative;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    width: 100%;
+    background-color: #F7F7FF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 80px;
+  }
+
+  .nav-mobile .a{
+    color: #8380B6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 16px 0;
+  }
+
+  .nav-mobile.active{
+    left:0;
+  }
+
+ .hamburger{
+  display: block;
+  float: right;
+  margin-right: 10px;
+ }
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out; 
+    background-color: #540D6E;
+  }
+
+  .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+    
+  }
+
+  .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  
+  .major{
+    margin-left: 0;
+  }
+
+  body{
+    margin: 0 10px;
+  }
+
+  .nav-right{
+    display: none;
+  }
+
+  .rustgar{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+
+  .logo{
+    margin-left: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #540D6E, #7a08a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  .a{
+    font-size: 14px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .icon{
+    width:35px;
+    height:35px;
+  }
+  
+  .sm ul li a{
+    font-size: 20px;
+  }
+  
+  .sm ul li{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sm ul li a i{
+    line-height: 40px;
+  }
+  
+  .fullstacklogo ul li{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px;
+  }
+  q{
+    font-size: 1.4em;
+  }
+  
+  .main{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+
+  }
+  
+  .intron{
+    font-size: 2em;
+  }
+  
+  .title{
+    font-size: 2em;
+  }
+  h1{
+    font-size: 2em;
+    text-align: center;
+  }
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .test{
+    width: 350px;
+    height: 350px;
+  }
+
+  .full-left{
+    margin-right: 0;
+  }
+  .point{
+    font-size: 1.1em;
+    padding: 0;
+  }
+  .cloud{
+    width: 350px;
+    height: 200px;
+  }
+  
+  .uipic{
+    width:300px;
+    height:300px;
+  }
+
+  .major-point{
+    font-size: 0.9em;
+  }
+  
+  h3{
+    font-size: 1.4em;
+  }
+  
+  h4{
+    font-size: 1.3em;
+  }
+  
+  h5{
+    font-size: 1em;
+  }
+  footer{
+    font-size: 1em;
+  }
+  .wlu{
+    margin-left: 0px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    }
+  
+    .uni{
+      flex-direction: column;
+    }
+  .coursera-title{
+    font-size: 1.2em;
+  }
+  
+  .overlay{
+    font-size: 1.5em;
+    padding:27px 152px;
+  }
+  
+  .exper-desc{
+    font-size: 1.2em;
+  }
+  
+  .project-github{
+    font-size: 1em;
+    padding: 15px;
+  }
+  
+  form input, form textarea{
+    font-size: 1em;
+  }
+  
+  form button{
+    font-size: 1.2em;
+    width: 150px;
+  
+  }
+
+  .major-desc{
+    margin-left: 0;
+  }
+  .position{
+    font-size: 1.3em;
+  }
+  
+  .company{
+    font-size: 1em;
+  }
+  
+  .date{
+  font-size: 0.9em;
+  }
+  
+  .city{
+    font-size: 0.9em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+
+  .full{
+    flex-direction: column;
+  }
+
+  .backend-cloud{
+    flex-direction: column-reverse;
+  }
+  .backcloud-right{
+    margin-left: 0;
+  }
+  
+  .ui-right{
+    margin-left: 0;
+  }
+
+  .ui-ux{
+    flex-direction: column;
+  }
+
+  .r-right{
+    margin-left: 0;
+  }
+
+
+  .full-left{
+    margin-right: 0px;
+    }
+
+  .robotics{
+    flex-direction: column-reverse;
+  }  
+
+  .edintro{
+    flex-direction: column;
+  }
+
+  .edright{
+    margin-left: 0;
+  }
+
+  .fullstacklogo{
+    margin-top: 0px;
+  }
+  .course-org{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0.5pc 0.5pc 0pc 0pc;
+  }
+  .course{
+    padding: 1px 0px 1px 0px;
+    text-align: center;
+    background-color: #F7F7FF;
+    box-shadow: 2px 2px 10px #8789C0;
+    border-radius: 0pc 0pc 0.5pc 0.5pc;
+  }
+
+  .exper-intro{
+    flex-direction: column;
+  }
+  .exper-intro-right{
+    margin-left: 0;
+  }
+  
+  .job-leftright{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .job-right{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .box{
+    padding: 10px;
+  }
+
+  .projectintro{
+    flex-direction: column;
+  }
+
+  .project-right{
+    margin-left: 0;
+  }
+
+  .contactintro{
+    flex-direction:column-reverse;
+  }
+}
